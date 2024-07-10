@@ -106,7 +106,7 @@ int main(int argc, char* argv[])
 	argv += optind;
 
 	if (argc > 0)
-		bufsize = atoi(argv[2]) * 1024;
+		bufsize = atoi(argv[0]) * 1024;
 	if (argc > 1)
 		nloop = atoi(argv[1]) * 1024;
 
